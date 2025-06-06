@@ -31,14 +31,14 @@
 ```bash
 sudo apt update
 sudo apt install postgresql postgresql-contrib
-
+```
 
 
 ---
 
 ### ✅ Day03_Create_Tables/README.md
 
-```markdown
+
 # Day 3: Creating Tables
 
 ## ✅ Create `users` Table
@@ -51,7 +51,7 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-
+```
 
 
 ---
@@ -60,13 +60,13 @@ CREATE TABLE users (
 
 ```markdown
 # Day 4: Inserting Data
-
+```
 ## ✅ Single Insert
 ```sql
 INSERT INTO users (name, email, age)
 VALUES ('Ravi Sharma', 'ravi@example.com', 28);
 
-
+```
 
 
 
@@ -76,12 +76,12 @@ VALUES ('Ravi Sharma', 'ravi@example.com', 28);
 
 ```markdown
 # Day 5: Reading Data – SELECT
-
+```
 ## ✅ Syntax
 ```sql
 SELECT column1, column2 FROM table;
 SELECT * FROM users;
-
+```
 
 
 ---
@@ -90,12 +90,12 @@ SELECT * FROM users;
 
 ```markdown
 # Day 6: Filtering Data – WHERE
-
+```
 ## ✅ Syntax
 ```sql
 SELECT * FROM products WHERE stock > 50;
 SELECT * FROM users WHERE age IS NOT NULL;
-
+```
 
 
 ---
@@ -111,7 +111,7 @@ UPDATE users
 SET age = 30
 WHERE email = 'ravi@example.com';
 
-
+```
 
 ---
 
@@ -124,7 +124,7 @@ WHERE email = 'ravi@example.com';
 ```sql
 DELETE FROM users WHERE age < 18;
 
-
+```
 
 
 
@@ -150,7 +150,7 @@ CREATE TABLE orders (
     amount DECIMAL CHECK (amount > 0)
 );
 
-
+```
 
 ---
 
@@ -175,4 +175,4 @@ CREATE TABLE orders (
 Try creating a table using at least 5 different data types.
 
 
-
+```
