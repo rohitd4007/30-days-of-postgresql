@@ -36,9 +36,6 @@ sudo apt install postgresql postgresql-contrib
 
 ---
 
-### ✅ Day03_Create_Tables/README.md
-
-
 # Day 3: Creating Tables
 
 ## ✅ Create `users` Table
@@ -56,11 +53,8 @@ CREATE TABLE users (
 
 ---
 
-### ✅ Day04_Insert_Data/README.md
-
-```markdown
 # Day 4: Inserting Data
-```
+
 ## ✅ Single Insert
 ```sql
 INSERT INTO users (name, email, age)
@@ -72,11 +66,10 @@ VALUES ('Ravi Sharma', 'ravi@example.com', 28);
 
 ---
 
-### ✅ Day05_Select_Data/README.md
 
-```markdown
 # Day 5: Reading Data – SELECT
-```
+
+
 ## ✅ Syntax
 ```sql
 SELECT column1, column2 FROM table;
@@ -86,11 +79,9 @@ SELECT * FROM users;
 
 ---
 
-### ✅ Day06_Where_Clause/README.md
 
-```markdown
 # Day 6: Filtering Data – WHERE
-```
+
 ## ✅ Syntax
 ```sql
 SELECT * FROM products WHERE stock > 50;
@@ -100,9 +91,7 @@ SELECT * FROM users WHERE age IS NOT NULL;
 
 ---
 
-### ✅ Day07_Update_Data/README.md
 
-```markdown
 # Day 7: Updating Data
 
 ## ✅ Syntax
@@ -115,9 +104,7 @@ WHERE email = 'ravi@example.com';
 
 ---
 
-### ✅ Day08_Delete_Data/README.md
 
-```markdown
 # Day 8: Deleting Data
 
 ## ✅ Syntax
@@ -130,9 +117,7 @@ DELETE FROM users WHERE age < 18;
 
 ---
 
-### ✅ Day09_Constraints/README.md
 
-```markdown
 # Day 9: Constraints in PostgreSQL
 
 ## ✅ Common Constraints
@@ -154,9 +139,7 @@ CREATE TABLE orders (
 
 ---
 
-### ✅ Day10_DataTypes/README.md
 
-```markdown
 # Day 10: PostgreSQL Data Types
 
 ## ✅ Common Types
